@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palette Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="container">
+    <section class="colors">
+            <div id="primary"><label for="p"><input id="p" type="color"><i class="fa fa-eyedropper"></i></label><p id="pText"></p></div>
+            <div id="secondary"><p id="sText"></p></div>
+            <div id="accent"><p id="aText"></p></div>  
+    </section>
+    <section class="demo">
+        <h1>Your Colors in Action</h1>
+        <section class="content">
+        <section class="sidebar">
+          <section class="img"><i class="fa fa-image"></i>
+            
+            <section class="about">
+            <p><h4>Danielle Lyle</h4></p>
+            <p>Web Developer, Belgium</p>
+            <p>karendlyle@gmail.com</p>
+          </section>
+          </section>
+          
+          <section class="icons">
+            <i class="fa fa-github"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-slack"></i>
+            <i class="fa fa-twitter"></i>
+          </section>
+          
+        </section>
+          <section class="text">
+            <h3>Color scheme: Split Complementary</h3>
+            <p>This color scheme takes a base (primary) color and provides two secondary colors that are on either side of its complementary color.</p>
+            <h3>Choose your own color</h3>
+            <p>Click the dropper to choose your primary color. A secondary and accent color will be chosen automatically. Afterwards, you can click on the text to copy the color value to your clipboard.</p>
+            
+            <h3>Get a Random Palette</h3>
+            <p>Otherwise, click the button below to have a set of colors generated randomly!</p>
+            
+            <button id="generate">Get New Colors!</button>
+          </section>
+        </section>
+      </section>
+
+   
+</section>
+
+<script src="app.js"></script>
+</body>
+
+</html>
